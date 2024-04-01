@@ -1,0 +1,58 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #081923;
+
+}
+
+.calculator {
+    width: 310px;
+    height: 485px;
+    background: #0F2636;
+
+}
+
+input {
+    width: 310px;
+    outline: none;
+    padding: 20px;
+    text-align: right;
+    font-size: 45px;
+    background-color: white;
+    color: black;
+
+}
+.btn-cal
+{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.btn-cal button {
+    width: 77px;
+    height: 77px;
+    background: #0C2635;
+    font-size: 35px;
+    color: #fff;
+    /* border: 1px solid black; */
+    
+  
+   
+}
+.btn-cal .clear
+{
+    width: 152px;
+    grid-column: span 2;
+    background:rgb(255, 0, 85) ;
+    font-weight: bold;
+}
+.btn-cal .plus{
+height: 152px;
+    grid-row: span 2;
+}
+.btn-cal .equal 
+{
+    background: #00c3ff;
+    font-weight: bold;
+}
